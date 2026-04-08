@@ -14,7 +14,7 @@ class MagicSquareTest {
                 {4, 9, 2}
         };
         int sum = 15;
-        assertEquals(true, MagicSquare.allSumDirectionsEqualsSum(input, sum));
+        assertTrue(MagicSquare.allSumDirectionsEqualsSum(input, sum));
     }
 
     @Test
@@ -25,6 +25,6 @@ class MagicSquareTest {
                 {4, 9, 2}
         };
         int sum = 15;
-        assertEquals(false, MagicSquare.allSumDirectionsEqualsSum(input, sum));
+        assertFalse(MagicSquare.allSumDirectionsEqualsSum(input, sum));
     }
 }

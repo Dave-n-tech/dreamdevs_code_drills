@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 
 public class SlidingWindow {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int [] arr = {1, 5, 6, 9, 3, 7};
         int k = 3;
         int[] output = findMaxSubarray(arr, k);
