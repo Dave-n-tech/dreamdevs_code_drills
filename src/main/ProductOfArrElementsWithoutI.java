@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 
 public class ProductOfArrElementsWithoutI {
-    static void main(String[] args) {
+    static void main() {
         int[] inputArr = {2, 1, 5, 6};
 
         int[] productArr = productExceptI(inputArr);
